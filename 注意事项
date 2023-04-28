@@ -1,0 +1,15 @@
+yum install python-pip
+
+pip install Django==1.8.16
+
+tar -xvf django-1.11.8.tar.gz
+cd django-1.11.8
+(sudo) python setup.py install
+
+python的django的bug
+
+选择 Django-1.8.16
+
+如果是 Django-1.10.以上的默认没有from django.conf.urls import patterns这个模块
+
+django最近的模块不兼容项目的模板
